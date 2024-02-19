@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 64px;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.div-list ul {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 800px;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+
+.button-div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    justify-content: space-evenly;
+
+    height: 70px;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+
+.content h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+
+}
+
+
+
+.content span {
+    color: red;
+}
+
+
+
+.button-div .post {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+
+.button-div .hire {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+
+
+.div-list ul span{
+    color: red;
+}
+
+.button-div .Employers {
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px solid purple;
+    border-radius: 6px;
+}
+
+
+.content input {
+    width: 600px;
+    height: 40px;
+    position: relative;
+    top: 120px;
+    left: 430px;
+    padding-left: 30px;
+
+}
+
+
+.content div {
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+
+}
+
+
+.main-middle {
+    width: 100%;
+    height: 60px;
+}
+
+.middle-div {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-middle{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer{
+    width: 1366px;
+    height: 500px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+    nav {
+        width: 130%;
+    }
+
+    .content {
+        width: 130%;
+    }
+
+    .content input {
+        position: relative;
+        left: 410px;
+    }
+
+
+    
+.main-middle {
+    width: 130%;
+    height: 60px;
+}
+
+.middle-div{
+    width: 120%;
+}
+}
+
+@media only screen and (max-width:768px) {
+
+    nav {
+        width: 170%;
+    }
+
+    .content {
+        width: 170%;
+    }
+
+    .content input {
+        position: relative;
+        left: 410px;
+    }
+
+    .main-middle {
+        width: 130%;
+        height: 60px;
+    }
+}
+
+
+@media only screen and (max-width:630px) {
+
+    nav {
+        width: 315%;
+    }
+
+    .content {
+        width: 315%;
+    }
+
+    .content input {
+        position: relative;
+        left: 410px;
+    }
+
+
+    .main-middle {
+        width: 130%;
+        height: 60px;
+    }
+    
+    .middle-div{
+        width: 210%;
+        
+    }
+}
+
+
+@media only screen and (max-width:375px) {
+
+    nav {
+        width: 360%;
+    }
+
+    .content {
+        width: 360%;
+    }
+
+    .content input {
+        position: relative;
+        left: 410px;
+    }
+
+
+    .main-middle {
+        width: 130%;
+        height: 60px;
+    }
+    
+    .middle-div{
+        width: 280%;
+        
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    nav {
+        width: 410%;
+    }
+
+    .content {
+        width: 410%;
+    }
+
+    .content input {
+        position: relative;
+        left: 410px;
+    }
+}
